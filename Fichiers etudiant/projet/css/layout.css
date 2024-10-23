@@ -1,0 +1,64 @@
+nav.app-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.album-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: column;
+}
+
+/* Ce passage sert à espacer le nom de la musique du temps qu'elle dure. On met le temps de la musique à la fin et le nom au début */
+ul.tracklist>li {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+div.controls {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+
+div.current {
+    display: flex;
+    align-items: center;
+}
+
+
+/* On change la couleur */
+.app-bottom .current {
+    background-color: #313131;
+}
+
+
+/* ----------------------------------------------------------------------
+    @@@ Sidebar
+---------------------------------------------------------------------- */
+.app-nav {
+    width: 50px;
+    background: #313131;
+    color: #fff;
+}
+
+
+/* ----------------------------------------------------------------------
+    @@@ Layout
+---------------------------------------------------------------------- */
+.app-wrapper {
+    height: 100vh;
+    background: #313131;
+}
+.app-top {
+    background: #313131;
+}
+.app-bottom {
+    background: #313131;
+    color: #fff;
+    padding: 20px;
+}
